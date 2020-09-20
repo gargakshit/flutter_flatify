@@ -3,7 +3,7 @@
 A set of extensions for flutter widgets, makes code more readable and easier to write.
 Flatify is heavily inspired by [superchared](https://pub.dev/packages/supercharged) and swift UI modifiers
 
-## Examples
+## 📝 Examples
 
 - Creating a styled text widget
 
@@ -11,12 +11,15 @@ Flatify is heavily inspired by [superchared](https://pub.dev/packages/supercharg
   import 'package:flatify/flatify.dart';
   import 'package:flutter/material.dart';
 
-  Widget styledText = Text('Hello Flatify')
-      .withFontSize(20)
-      .withFontColor(Colors.red)
-      .withFontWeight(FontWidget.w600)
-      .withItalics()
-      .withFontFamily('Montserrat')
+  Widget styledText = Text(
+    'Hello Flatify',
+    style: TextStyle()
+        .withFontSize(20)
+        .withFontColor(Colors.red)
+        .withFontWeight(FontWidget.w600)
+        .withItalics()
+        .withFontFamily('Montserrat'),
+  );
   ```
 
 - Adding padding to a widget
