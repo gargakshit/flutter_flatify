@@ -1,7 +1,8 @@
 # Flutter Flatify
 
-A set of extensions for flutter widgets, makes code more readable and easier to write.
-Flatify is heavily inspired by [supercharged](https://pub.dev/packages/supercharged) and swift UI modifiers
+A set of extensions for flutter widgets, makes code more readable and easier to
+write. Flatify is heavily inspired by
+[supercharged](https://pub.dev/packages/supercharged) and swift UI modifiers
 
 ## 📝 Examples
 
