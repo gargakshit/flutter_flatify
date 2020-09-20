@@ -53,4 +53,11 @@ extension WidgetExtension on Widget {
       width: width,
     );
   }
+
+  /// Wraps the widget with a [Center] widget.
+  Widget withCenter() {
+    return Center(
+      child: this,
+    );
+  }
 }
