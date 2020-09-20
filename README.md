@@ -8,8 +8,8 @@ Flatify is heavily inspired by [superchared](https://pub.dev/packages/supercharg
 - Creating a styled text widget
 
   ```dart
-  import 'package:flutter/material.dart';
   import 'package:flatify/flatify.dart';
+  import 'package:flutter/material.dart';
 
   Widget styledText = Text('Hello Flatify')
       .withFontSize(20)
@@ -22,8 +22,8 @@ Flatify is heavily inspired by [superchared](https://pub.dev/packages/supercharg
 - Adding padding to a widget
 
   ```dart
-  import 'package:flutter/material.dart';
   import 'package:flatify/flatify.dart';
+  import 'package:flutter/material.dart';
 
   Widget paddedContainer = Container().withPadding(const EdgeInsets.all(8));
   ```
@@ -31,8 +31,8 @@ Flatify is heavily inspired by [superchared](https://pub.dev/packages/supercharg
 - Adding a corner radius to the widget
 
   ```dart
-  import 'package:flutter/material.dart';
   import 'package:flatify/flatify.dart';
+  import 'package:flutter/material.dart';
 
   Widget roundedContainer = Container().withCornerRadius(BorderRadius.circular(8));
   ```
