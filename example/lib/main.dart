@@ -25,8 +25,11 @@ class MyApp extends StatelessWidget {
                 .withFontSize(20.0)
                 .withFontColor(Color(0xff121212))
                 .withFontWeight(FontWeight.w800),
-          ).withPadding(),
-        ).withCenter(),
+          ).withCenter(),
+        )
+            .withSize(height: 128, width: 360)
+            .withBackgroundColor(Colors.lightBlue[100])
+            .withPadding(),
       ),
     );
   }
