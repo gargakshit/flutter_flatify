@@ -60,4 +60,17 @@ extension WidgetExtension on Widget {
       child: this,
     );
   }
+
+  /// Wraps the widget with a [DecoratedBox] widget.
+  /// Accepts a color as the parameter
+  Widget withBackgroundColor(
+    Color color,
+  ) {
+    return DecoratedBox(
+      child: this,
+      decoration: BoxDecoration(
+        color: color,
+      ),
+    );
+  }
 }
