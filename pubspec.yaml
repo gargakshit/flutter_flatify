@@ -1,0 +1,19 @@
+name: flatify
+description: A set of extensions for flutter widgets, makes code more readable and easier to write.
+version: 1.0.0
+author: Akshit Garg <me@akshit.tech>
+homepage: https://github.com/gargakshit/flutter_flatify
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
